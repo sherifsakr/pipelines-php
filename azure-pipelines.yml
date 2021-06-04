@@ -19,6 +19,6 @@ steps:
     php -version
   displayName: 'Use PHP version $(phpVersion)'
 
-- script: composer install --no-interaction --working-dir='$(system.defaultWorkingDirectory)/pkgs'
+- script: composer install --no-interaction --working-dir=pkgs
   displayName: 'composer install'
 
