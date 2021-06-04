@@ -19,6 +19,3 @@ steps:
     php -version
   displayName: 'Use PHP version $(phpVersion)'
 
-- script: composer install --no-interaction
-  displayName: 'composer install'
-
